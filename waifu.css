@@ -83,10 +83,10 @@
 }
 
 #waifu-tool {
-	color: #aaa;
+	color: background-color: var(--btn-hover-color);
 	opacity: 0;
 	position: absolute;
-	left: -10px;
+	left: 20px;
 	top: 70px;
 	transition: opacity 1s;
 }
@@ -96,7 +96,7 @@
 }
 
 #waifu-tool span {
-	color: #7b8c9d;
+	color: background-color: var(--btn-hover-color);
 	cursor: pointer;
 	display: block;
 	line-height: 30px;
