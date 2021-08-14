@@ -43,6 +43,7 @@ function loadWidget(config) {
 		userActionTimer,
 		messageTimer,
 		messageArray = ["好久不見，日子過得真快……", "好無聊啊"];
+		messageArray2 = ["世間不如意事十常居七八", "雖不比十美，眼下也亦已十全", "這些內容都取自主人的名言錄喔"];
 	window.addEventListener("mousemove", () => userAction = true);
 	window.addEventListener("keydown", () => userAction = true);
 	setInterval(() => {
@@ -67,6 +68,9 @@ function loadWidget(config) {
 				script.src = "https://cdn.jsdelivr.net/gh/stevenjoezhang/asteroids/asteroids.js";
 				document.head.appendChild(script);
 			}
+		});
+		document.querySelector("#waifu-tool .fa-comment").addEventListener("click", () => {
+			showMessage(randomSelection(messageArray2), 6000, 9);
 		});
 		document.querySelector("#waifu-tool .fa-user-circle").addEventListener("click", loadOtherModel);
 		document.querySelector("#waifu-tool .fa-street-view").addEventListener("click", loadRandModel);
