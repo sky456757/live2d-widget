@@ -18,37 +18,40 @@
 		"selector": "#waifu-tool .fa-camera-retro",
 		"text": ["我們來合照吧！", "保持微笑就好了～"]
 	}, {
+		"selector": ".aplayer",
+		"text": ["來聽聽主人精選的歌單吧"]
+	}, {
 		"selector": "#waifu-tool .fa-info-circle",
 		"text": ["想要知道更多關於我的事嗎？"]
 	}, {
 		"selector": "#waifu-tool .fa-times",
 		"text": ["到了要說再見的時候了嗎？", "哼，你會後悔的！"]
 	}, {
-		"selector": ".menu-item-home a",
+		"selector": ".site-page .fa-home, a#site-name",
 		"text": ["點擊前往首頁，想回到上一頁可以使用瀏覽器的上一頁功能哦。", "點它就可以回到首頁啦！", "回首頁看看吧。"]
 	}, {
-		"selector": ".site-page-about a",
+		"selector": "a.site-page-about",
 		"text": ["你想知道我家主人是誰嗎？"]
 	}, {
-		"selector": ".site-page-tags a",
+		"selector": "a.site-page-tags",
 		"text": ["點擊就可以看文章的標籤啦！", "點擊來查看所有標籤哦。"]
 	}, {
-		"selector": ".site-page-categories a",
+		"selector": "a.site-page-categories",
 		"text": ["文章都分類好啦～", "點擊來查看文章分類哦。"]
 	}, {
-		"selector": ".site-page-archives a",
+		"selector": "a.site-page-archives",
 		"text": ["覺得翻頁很麻煩嗎，那就来看看文章歸檔吧。", "文章目錄都整理在這裡啦！"]
 	}, {
-		"selector": ".site-page-friends a",
+		"selector": ".site-page-friends",
 		"text": ["要去拜訪一下我的朋友們嗎？"]
 	}, {
-		"selector": ".site-page-search a",
+		"selector": "#search-button",
 		"text": ["在找什麼東西呢，需要幫忙嗎？"]
 	}, {
-		"selector": ".site-page a",
+		"selector": ".site-page",
 		"text": ["快看看這裡都有什麼呢？"]
 	}, {
-		"selector": ".author-info",
+		"selector": ".is-center",
 		"text": ["我家主人好看嗎？"]
 	}, {
 		"selector": ".card-webinfo",
@@ -72,7 +75,7 @@
 		"selector": ".copy-btn",
 		"text": ["程式碼可以直接點擊複製喔。"]
 	}, {
-		"selector": ".highlight-tools .table-container, .gist",
+		"selector": ".highlight-tools  .table, .gist",
 		"text": ["C++ 是最好的语言！"]
 	}, {
 		"selector": "a[href^='mailto']",
